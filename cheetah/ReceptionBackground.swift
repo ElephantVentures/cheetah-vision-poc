@@ -9,12 +9,18 @@ import SwiftUI
 
 struct ReceptionBackground: View {
     var body: some View {
-        ZStack(alignment: .center) {
-            Image(.reception)
+        ZStack(alignment: .leading) {
+            Image("reception")
                 .resizable()
-                .opacity(0.7)
-            Text("Equinox gym tour")
-                .font(.title)
+                .scaledToFill()
+                .edgesIgnoringSafeArea(.all)
+            HStack(alignment: .center) {
+                Text("Equinox Gym Tour")
+                    .font(.largeTitle)
+                    .foregroundColor(.white)
+                    .padding()
+                Spacer()
+            }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
