@@ -16,7 +16,6 @@
 		69F2CC332BF8E802000E2019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69F2CC322BF8E802000E2019 /* Assets.xcassets */; };
 		69F2CC362BF8E802000E2019 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69F2CC352BF8E802000E2019 /* Preview Assets.xcassets */; };
 		69F2CC412BFB41F7000E2019 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F2CC402BFB41F7000E2019 /* Model.swift */; };
-		69F2CC432BFB4263000E2019 /* ReceptionBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F2CC422BFB4263000E2019 /* ReceptionBackground.swift */; };
 		69F2CC472BFB4466000E2019 /* GymThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F2CC462BFB4466000E2019 /* GymThumbnail.swift */; };
 		69F2CC492BFB4FDD000E2019 /* ThumbnailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F2CC482BFB4FDD000E2019 /* ThumbnailRow.swift */; };
 		69F2CC4B2BFB6913000E2019 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F2CC4A2BFB6913000E2019 /* ImmersiveView.swift */; };
@@ -34,7 +33,6 @@
 		69F2CC352BF8E802000E2019 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		69F2CC372BF8E802000E2019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69F2CC402BFB41F7000E2019 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		69F2CC422BFB4263000E2019 /* ReceptionBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptionBackground.swift; sourceTree = "<group>"; };
 		69F2CC462BFB4466000E2019 /* GymThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymThumbnail.swift; sourceTree = "<group>"; };
 		69F2CC482BFB4FDD000E2019 /* ThumbnailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailRow.swift; sourceTree = "<group>"; };
 		69F2CC4A2BFB6913000E2019 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
@@ -82,7 +80,6 @@
 			children = (
 				69F2CC2E2BF8E801000E2019 /* cheetahApp.swift */,
 				69F2CC302BF8E801000E2019 /* ContentView.swift */,
-				69F2CC422BFB4263000E2019 /* ReceptionBackground.swift */,
 				69F2CC462BFB4466000E2019 /* GymThumbnail.swift */,
 				69F2CC482BFB4FDD000E2019 /* ThumbnailRow.swift */,
 				69F2CC4A2BFB6913000E2019 /* ImmersiveView.swift */,
@@ -186,7 +183,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				69F2CC412BFB41F7000E2019 /* Model.swift in Sources */,
-				69F2CC432BFB4263000E2019 /* ReceptionBackground.swift in Sources */,
 				69F2CC312BF8E801000E2019 /* ContentView.swift in Sources */,
 				694983A32BFE097400D96730 /* ImmersiveAudio.swift in Sources */,
 				69F2CC4B2BFB6913000E2019 /* ImmersiveView.swift in Sources */,
