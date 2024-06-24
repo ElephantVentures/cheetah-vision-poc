@@ -12,13 +12,15 @@ struct ThumbnailRow: View {
     @State private var isSpaceOpen = false
 
     var body: some View {
-        HStack {
-            ForEach(Model.allCases) { room in
-                GymThumbnail(selectedRoom: $selectedRoom, isSpaceOpen: $isSpaceOpen, imageName: room.rawValue)
+        ScrollView(.horizontal) {
+            HStack {
+                ForEach(Model.allCases) { room in
+                    GymThumbnail(selectedRoom: $selectedRoom, isSpaceOpen: $isSpaceOpen, imageName: room.rawValue)
+                }
             }
+            .frame(maxWidth: .infinity, alignment: .center)
+            .padding()
         }
-        .frame(maxWidth: .infinity, alignment: .center)
-        .padding()
     }
 }
 
